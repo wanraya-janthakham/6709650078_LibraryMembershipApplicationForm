@@ -1,0 +1,44 @@
+/* พื้นหลังของหน้า */
+body {
+  
+    color: #007acc; /* สีฟ้า */
+    font-weight: bold;
+    padding: 0 10px;
+
+}     
+      
+
+/* สไตล์สำหรับ label */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* สไตล์สำหรับ input */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* สไตล์สำหรับปุ่ม submit */
+input[type="submit"] {
+    background-color: #007acc; /* สีฟ้าสำหรับปุ่ม */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #005f99; /* สีฟ้าเข้มขึ้นเมื่อวางเมาส์ */
+}
